@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+    .works__group {
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    .works {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contact {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .works__text1 {
+        padding: 0;
+    }
+    .top h1 {
+        font-size: 2.8rem;
+    }
+
+    /* about */
+    .about .about-text__name {
+        font-size: 2.4rem;
+    }
+    .about .about-text__name span {
+        font-size: 1.6rem;
+    }
+    .about .about-text__content {
+        margin-top: 16px;
+        font-size: 1.6rem;
+    }
+    .about__wrapper {
+        flex-direction: column;
+    }
+    .about__img {
+        width: 60%;
+    }
+    .about__text {
+        width: 60%;
+    }
+
+}
+@media (max-width: 550px) {
+    .top {
+        height: 80vh;
+    }
+    .top h1 {
+        font-size: 2.4rem;
+    }
+    .footer__wrapper {
+        gap: 0;
+    }
+    .contact .item__mail {
+        width: 70%;
+        font-size: 1.4rem;
+        padding: 16px;
+    }
+    .contact__item {
+        gap: 16px;
+    }
+    .contact .item__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+@media (max-width: 425px) {
+    .top {
+        height: 57vh;
+    }
+    .top h1 {
+        font-size: 2rem;
+    }
+    .hamb {
+        right: 30px;
+        top: 25px;
+    }
+    .title-en {
+        font-size: 2.6rem;
+    }
+    .title-ja {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .works__text1 {
+        padding-top: 6px;
+        font-size: 1.6rem;
+    }
+    .about__img {
+        width: 80%;
+    }
+    .about__text {
+        width: 80%;
+    }
+    .about .about-text__content {
+        font-size: 1.4rem;
+    }
+    .works {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact .item__mail {
+        width: 60%;
+        font-size: 1.2rem;
+        padding: 14px;
+    }
+    .footer__text-area {
+        margin-right: 40px;
+        font-size: 1.2rem;
+    }
+    .footer__text-area ul li {
+        margin-left: 20px;
+    }
+    .footer__text-area ul a {
+        font-size: 1.2rem;
+    }
+    .footer__icon1 {
+        width: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .works__img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+    .top h1 {
+        font-size: 1.4rem;
+    }
+
+}

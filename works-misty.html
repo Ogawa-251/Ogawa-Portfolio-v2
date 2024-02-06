@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小川ポートフォリオ</title>
+    <meta name="description" content="このサイトは小川によってポートフォリオ用に制作されました">
+    <!-- 検索エンジンによるインデックスの除外 -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- アイコン -->
+    <link rel="icon" href="img/icon.ico">
+
+    <!-- CSSリンク -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/animation-hover.css">
+    <link rel="stylesheet" href="scss/works-style.css">
+    <link rel="stylesheet" href="scss/modal.css">
+    <link rel="stylesheet" href="scss/fade.css">
+    <link rel="stylesheet" href="css/works-responsive.css">
+
+    <!-- googleフォントリンク -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__wrapper inner">
+            <div class="header__bg">
+                <a href="index.html">
+                    <div class="header-bg__logo">
+                        <img src="img/ogawa-logo.png" alt="ロゴ">
+                    </div>
+                </a>
+                <div class="header-bg__text">
+                    <ul>
+                        <li class="header-text"><a href="#Works">Works</a></li>
+                        <li class="header-text"><a href="#About">About</a></li>
+                        <li class="header-text"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ハンバーガーメニュー -->
+    <div class="wrapper" id="wrapper">
+        <div class="hamb" id="js-hamb">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li class="nav-text"><a href="index.html#Works">Works</a></li>
+                <li class="nav-text"><a href="index.html#About">About</a></li>
+                <li class="nav-text"><a href="index.html#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bg" id="js-bg"></div>
+    </div>
+
+
+
+
+    <main>
+        <!-- メイン -->
+        <section class="works-top">
+            <div class="inner">
+
+                <h1 class="works-top__heading">お花のサブスクリプションサービスMisty</h1>
+                <a target="_blank" href="https://ogawa-251.github.io/Misty-ogawa-work/">
+                    <p class="works-top__url">Website URL https://ogawa-251.github.io/Misty-ogawa-work/</p>
+                </a>
+
+                <div class="works-top__img-area js-fadeIn content">
+                    <img src="img/Misty.png" alt="モックアップの画像">
+                </div>
+
+                <p class="works-top__text1">
+                    架空のお花サブスクリプションサービスのLPです。スクールの卒業制作です。<br>
+                    サイトのイメージに合うように配色やフォント、写真やイラスト素材を工夫して繊細で上品な雰囲気を演出するように工夫しました。</p>
+                <p class="works-top__text2">
+                    企画・ワイヤーフレーム:7日間<br>
+                    デザイン:1週間 <br>
+                    コーディング:4週間</p>
+
+                <p class="works-top__text3">ツール: Illustrator/Photoshop/Figma/VisualStudioCode</p>
+
+            </div>
+        </section>
+
+
+        <!-- デザインを見るボタン -->
+        <section class="view-area js-fadeIn content">
+            <div class="view">
+                <div class="view__text">View Design!</div>
+
+                <div id="modal__show" class="circle-button">
+                    <div id="modal__show" class="circle-button__arrow">→</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- モーダルウィンドウ -->
+        <div id="modal" class="modal">
+            <div class="modal__inner">
+                <div id="modal__close" class="modal__close"><i class="fas fa-times"></i></div>
+                <img src="img/misty-pc.png">
+            </div>
+            <div id="modal__background" class="modal__background"></div>
+        </div>
+
+        <!-- <button id="modal__show">画像を見る</button> -->
+
+
+
+
+
+
+
+
+        <section class="works-top2 inner js-fadeIn content">
+
+            <div class="works-top2__content">
+                <p class="works-top2-content__title">目的</p>
+                <p class="works-top2-content__text">美しいお花をお届けし、日常に特別な喜びをもたらすお花のサブスクリプションサービス。<br>
+                    忙しい現代の都市生活を送る方々に、美しい花々を手軽に楽しんでいただく手段を提供すること。</p>
+            </div>
+
+            <div class="works-top2__content">
+                <p class="works-top2-content__title">実装</p>
+                <p class="works-top2-content__text">HTML,CSS,JavaScriptを使用した基本的なサイト制作をしました。WordPress化も対応しました。<br>
+                </p>
+            </div>
+
+            <div class="works-top2__content">
+                <p class="works-top2-content__title">デザイン</p>
+                <p class="works-top2-content__text">サイトのイメージに合うようにフォントは上品なセリフ体を使用。配色は暖色で淡い色を選択しました。<br>
+                </p>
+            </div>
+
+            <div class="works-top2__content">
+                <p class="works-top2-content__title">スライド</p>
+                <p class="works-top2-content__text">作品ページにスライドショーを導入し、自動的にスライドが切り替わるように設計しました。<br>
+                </p>
+            </div>
+
+            <div class="works-top2__content">
+                <p class="works-top2-content__title">レスポンシブ設計</p>
+                <p class="works-top2-content__text">どのデバイスでも見栄えが損なわれないように調節しました。<br>
+                </p>
+            </div>
+
+        </section>
+
+        <!-- worksコンポーネント -->
+        <section class="works inner works-inner" id="Works">
+
+            <h2 class="title-en js-fadeIn content">Works</h2>
+            <h2 class="title-ja js-fadeIn content">作品紹介</h2>
+
+
+            <!-- グループ４つ -->
+            <div class="works__group">
+
+                <a href="">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/interior.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">インテリアサイト</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+
+                <a href="works-sugutabe.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/Sugutabe.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">スグ食べ</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- View Moreボタン -->
+        <div class="view-btn js-fadeIn content">
+            <div class="view-btn__text">View More</div>
+
+            <a href="index.html#Works">
+                <div class="circle-button2">
+                    <div class="circle-button2__arrow2">→</div>
+                </div>
+            </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer__wrapper inner">
+
+            <div class="footer__icon-area">
+                <a href="index.html">
+                    <div class="footer__icon1">
+                        <img src="img/ogawa-logo.png" alt="ロゴ">
+                    </div>
+                </a>
+                <!-- <div class="footer__icon2">
+                    <img src="img/x.png" alt="ロゴ">
+                </div> -->
+            </div>
+
+
+            <div class="footer__text-area">
+                <ul>
+                    <li class="footer-text"><a href="index.html#Works">Works</a></li>
+                    <li class="footer-text"><a href="index.html#About">About</a></li>
+                    <li class="footer-text"><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <p class="footer__copy">&copy; 2024 OgawaAyumi. All rights reserved.</p>
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+    <!-- JS読み込み -->
+    <script src="js/common.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/fade.js"></script>
+</body>
+
+</html>

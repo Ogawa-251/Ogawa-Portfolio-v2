@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小川ポートフォリオ</title>
+    <meta name="description" content="このサイトは小川によってポートフォリオ用に制作されました">
+    <!-- 検索エンジンによるインデックスの除外 -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- アイコン -->
+    <link rel="icon" href="img/icon.ico">
+
+    <!-- CSSリンク -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/animation-hover.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="scss/fade.css">
+    <link rel="stylesheet" href="css/home-responsive.css">
+
+    <!-- googleフォントリンク -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__wrapper inner">
+            <div class="header__bg">
+                <a href="index.html">
+                    <div class="header-bg__logo">
+                        <img src="img/ogawa-logo.png" alt="ロゴ">
+                    </div>
+                </a>
+                <div class="header-bg__text">
+                    <ul>
+                        <li class="header-text"><a href="#Works">Works</a></li>
+                        <li class="header-text"><a href="#About">About</a></li>
+                        <li class="header-text"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ハンバーガーメニュー -->
+    <div class="wrapper" id="wrapper">
+        <div class="hamb" id="js-hamb">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li class="nav-text"><a href="index.html#Works">Works</a></li>
+                <li class="nav-text"><a href="index.html#About">About</a></li>
+                <li class="nav-text"><a href="index.html#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bg" id="js-bg"></div>
+    </div>
+
+
+
+
+
+
+
+
+    <main>
+        <!-- メイン -->
+        <!-- top -->
+        <section class="top">
+            <h1>Ogawa's portfolio</h1>
+            <div class="top__video-area">
+                <video id="video" webkit-playsinline playsinline muted autoplay loop>
+                    <!--
+                      webkit-playsinline：iOS 9までのSafari用インライン再生指定
+                      playsinline：iOS 10以降のSafari用インライン再生指定
+                      muted：音声をミュートさせる
+                      autoplay：動画を自動再生させる
+                      loop：動画をループさせる
+                      controls：コントロールバーを表示する
+                  -->
+                    <source src="img/video1.mp4" type="video/mp4">
+                    <p>動画を再生できる環境ではありません。</p>
+                </video>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- works -->
+        <section class="works inner works-inner" id="Works">
+
+            <h2 class="title-en js-fadeIn content">Works</h2>
+            <h2 class="title-ja js-fadeIn content">作品紹介</h2>
+
+
+            <!-- グループ４つ -->
+            <div class="works__group">
+
+                <a class="hover" href="works-misty.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/Misty.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">Misty</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+
+                <a class="hover" href="works-sugutabe.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/Sugutabe.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">スグ食べ</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="works__group">
+                <a class="hover" href="works-interior.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/interior.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">インテリアサイト</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+
+                <a class="hover" href="works-cosmetics.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/cosmetics.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">コスメサイト</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="works__group">
+                <a class="hover" href="works-note.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/note-app.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">ノートアプリ</p>
+                        <p class="works__text2">Deployment | Cording</p>
+                    </div>
+                </a>
+
+                <a class="hover" href="works-todo.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/todo.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">todoアプリ</p>
+                        <p class="works__text2">Deployment | Cording</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="works__group">
+                <a class="hover" href="works-blog.html">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/blog.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">microCMSブログ</p>
+                        <p class="works__text2">Deployment | Cording</p>
+                    </div>
+                </a>
+
+                <a class="hover" href="">
+                    <div class="works-group__unit js-fadeIn content">
+                        <div class="works__img">
+                            <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                            <img src="img/Ogawa-Work.png" alt="サイトのモックアップ画像">
+                        </div>
+                        <p class="works__text1">実装中</p>
+                        <p class="works__text2">Design | Cording</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- about -->
+        <div class="about-bg">
+            <section class="about inner about-inner" id="About">
+
+                <h2 class="title-en js-fadeIn content">About</h2>
+                <h2 class="title-ja js-fadeIn content">私について</h2>
+
+                <div class="about__wrapper">
+
+                    <picture class="about__img js-fadeIn content">
+                        <!-- <source srcset="path/to/your-image.webp" type="image/webp"> -->
+                        <img src="img/ogawa-ayumi-img1.png" alt="Description of the image">
+                    </picture>
+
+                    <div class="about__text js-fadeIn content">
+                        <p class="about-text__name">小川 歩美<span>Ogawa Ayumi</span></p>
+                        <p class="about-text__content">
+                            1996年6月28日生まれ。何かを作ることが好きでいつも制作に没頭しています。<br>
+                            デザインとコーディングで一からサイトを作ることが出来ます。AIを使った新しい表現方法にも興味津々です。<br>
+                            デジタルハリウッドSTUDIO by LIG卒業生です。(2023年4月~10月)</p>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        <!-- contact -->
+        <section class="contact inner contact-inner" id="Contact">
+            <h2 class="title-en js-fadeIn content">Contact</h2>
+            <h2 class="title-ja js-fadeIn content">お問い合わせ</h2>
+
+            <div class="contact__item js-fadeIn content">
+                <div class="item__icon">
+                    <img src="img/mail.png" alt="メールのアイコン">
+                </div>
+                <a class="item__mail" href="mailto:ogawaamdm28work@gmail.com">ogawaamdm28work@gmail.com</a>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer__wrapper inner">
+
+            <div class="footer__icon-area">
+                <div class="footer__icon1">
+                    <img src="img/ogawa-logo.png" alt="ロゴ">
+                </div>
+                <!-- <div class="footer__icon2">
+                    <img src="img/x.png" alt="ロゴ">
+                </div> -->
+            </div>
+
+
+            <div class="footer__text-area">
+                <ul>
+                    <li class="footer-text"><a href="#Works">Works</a></li>
+                    <li class="footer-text"><a href="#About">About</a></li>
+                    <li class="footer-text"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <p class="footer__copy">&copy; 2024 OgawaAyumi. All rights reserved.</p>
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+    <!-- JS読み込み -->
+    <script src="js/common.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/fade.js"></script>
+</body>
+
+</html>

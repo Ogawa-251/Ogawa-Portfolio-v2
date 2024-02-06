@@ -1,0 +1,12 @@
+ .header-text, .header-bg__logo,
+ .item__icon, .footer__icon1, .footer__icon2,
+  .footer-text, .view__text, .circle-button, .circle-button__arrow, 
+  .view-btn__text, .circle-button2,.hover {
+    /* 通常のスタイル */
+    transition: transform 0.3s ease; /* アニメーションのトランジション効果 */
+
+    /* ホバー時のスタイル */
+    &:hover {
+        transform: scale(1.1); /* ホバー時に拡大するアニメーション */
+    }
+}

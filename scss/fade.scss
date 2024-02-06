@@ -1,0 +1,13 @@
+.content {
+    opacity: 0;
+    transition-duration: 0.8s;
+    transition-property: opacity, transform;
+    
+    &.is-scrollIn {
+      opacity: 1;
+      transform: translate(0, -30px);
+    }
+    
+  }
+
+//   js-fadeIn content が付いている要素をアニメーションさせる

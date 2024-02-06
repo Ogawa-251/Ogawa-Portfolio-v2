@@ -1,0 +1,10 @@
+.content {
+  opacity: 0;
+  transition-duration: 0.8s;
+  transition-property: opacity, transform;
+}
+.content.is-scrollIn {
+  opacity: 1;
+  transform: translate(0, -30px);
+}
+/*# sourceMappingURL=fade.css.map */
